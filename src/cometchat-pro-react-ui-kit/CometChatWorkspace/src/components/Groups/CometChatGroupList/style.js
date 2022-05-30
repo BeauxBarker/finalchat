@@ -75,12 +75,12 @@ export const groupHeaderTitleStyle = (props) => {
         fontSize: "22px",
         fontWeight: "700",
         lineHeight: "26px",
-        color: "white",
+        color: "white", 
         ...alignment,
         "&[dir=rtl]": {
             textAlign: "right",
         }
-    }
+    } 
 }
 
 export const groupAddStyle = (img, theme) => {

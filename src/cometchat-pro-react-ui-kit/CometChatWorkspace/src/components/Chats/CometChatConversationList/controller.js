@@ -13,7 +13,7 @@ export class ConversationListManager {
     callListenerId = "chatlist_call_" + new Date().getTime();
 
     constructor(context) {
-
+ 
         const chatListMode = context.UIKitSettings.chatListMode;
         const chatListFilterOptions = UIKitSettings.chatListFilterOptions;
 

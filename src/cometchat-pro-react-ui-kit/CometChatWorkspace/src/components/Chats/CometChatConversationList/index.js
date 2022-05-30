@@ -817,13 +817,13 @@ class CometChatConversationList extends React.Component {
 				</div>
 				{messageContainer}
 				<div css={chatsListStyle()} className="chats__list" onScroll={this.handleScroll} ref={el => (this.chatListRef = el)}>
-					{conversationList}
+					{conversationList} 
 				</div>
 				{showConfirmDialog}
 				<CometChatToastNotification ref={el => (this.toastRef = el)} lang={this.props.lang} />
 			</div>
 		);
-
+ 
 		let chatListWrapper = chatList;
 		//if used as a standalone component, add errorboundary and context provider
 		if (this.props._parent === "") {
