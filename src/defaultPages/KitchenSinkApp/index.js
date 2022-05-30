@@ -8,7 +8,7 @@ import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { COMETCHAT_CONSTANTS } from '../../consts';
-import Background_1 from "./background.mp4";
+import Background_1 from "./background.webm";
 import './video.css';
 import {
  
