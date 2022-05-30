@@ -21,6 +21,15 @@ export const errorStyle = () => {
         textAlign: "center",
     }
 }
+export const videoComponent = () => {
+
+    return {
+     display: "flex",
+     width: "50%",
+     align: "center",
+     marginTop: "100px"
+    }
+}
 
 export const titleStyle = () => {
 
