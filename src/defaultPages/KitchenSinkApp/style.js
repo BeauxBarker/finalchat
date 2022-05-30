@@ -8,8 +8,7 @@ export const wrapperStyle = () => {
         alignItems: "center",
         justifyContent: "center",
         height: "100vh",
-        background: "rgb(63,246,125)",
-        background: "linear-gradient(0deg, rgba(63,246,125,1) 0%, rgba(97,185,147,1) 19%, rgba(93,183,145,1) 35%, rgba(243,250,246,1) 52%, rgba(63,246,125,1) 94%)",
+        background: "#74bdfe",
     }
 }
 

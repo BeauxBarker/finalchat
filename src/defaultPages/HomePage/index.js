@@ -13,7 +13,7 @@ import * as actions from "../../store/action";
 import CometChatUI from "./resources/CometChatUI.png";
 import Component from "./resources/components.png";
 import listComponent from "./resources/wall.png";
-import chatvideo from './chatvideo.mp4'
+import launch from './launch.png'
 
 class HomePage extends React.Component {
 	render() {
@@ -27,9 +27,7 @@ class HomePage extends React.Component {
 			<div css={wrapperStyle()}>
 				{authRedirect}
 				<div css={videoComponent()}>
-				<video className='video' id="video" autoPlay loop muted>
-							<source src={chatvideo} type='video/mp4' />
-							</video>
+					<img src= {launch}/>
 				</div>
 				
 				<div css={UIComponentStyle()}>

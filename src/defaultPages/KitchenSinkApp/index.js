@@ -8,7 +8,7 @@ import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { COMETCHAT_CONSTANTS } from '../../consts';
-import Background_1 from "./background.webm";
+import backgroundImage from "./chatmain.png";
 import './video.css';
 import {
  
@@ -78,9 +78,7 @@ class KitchenSinkApp extends React.PureComponent {
               <p css={titleStyle()}>
               <div 
                 className="video">
-                <video className='video' id="video" autoPlay loop muted>
-                <source src={Background_1} type='video/mp4' />
-                </video>
+               <img src= {backgroundImage}/>
                </div> 
               </p>
             </div><br/>

@@ -101,7 +101,7 @@ export const boxStyle = () => {
     const mq = [`@media (min-width : 768px) and (max-width: 1024px)`];
 
     return {
-        margin: "90px 40px",
+        margin: "20px 40px",
         padding: "20px",
         boxShadow: "0 0 5px #bbb",
         borderRadius: "30px",
@@ -125,6 +125,7 @@ export const titleWrapperStyle = () => {
         width: "100%",
         alignItems: "center",
         justifyContent: "center",
+  
     }
 }
 
@@ -176,7 +177,8 @@ export const linkWrapperStyle = () => {
         borderTop: "0px solid #e8e8e8",
         padding: "10px",
         display: "flex",
-        margin: 0,
+        margin: "0",
+       
         alignItems: "center",
         justifyContent: "space-around",
         width: "100%",
@@ -208,13 +210,10 @@ export const linkStyle = () => {
 export const videoComponent = () => {
 
     return {
+        display: "flex",
+        flexDirection: "column",
         align: "center",
-        width: "100%",
-        height: "420px",
-        objectFit: "cover",
-        zIndex: "-100",
-        
-      
+        margin: "0"
         }
 }
 
@@ -222,8 +221,8 @@ export const videoComponent = () => {
 export const logoutBtn = () => {
 
     return {
-       
-        margin: "16px ​auto 24px auto",
+      
+        bottom: "50px",
         "button": {
             outline: "none",
             backgroundColor: "#5183A8",
