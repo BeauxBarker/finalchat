@@ -10,10 +10,8 @@ import { wrapperStyle, videoComponent, titleStyle, subTitleStyle, componentStyle
 
 import * as actions from "../../store/action";
 
-import CometChatUI from "./resources/CometChatUI.png";
-import Component from "./resources/components.png";
-import listComponent from "./resources/wall.png";
-import launch from './launch.png'
+import backgroundVideo from "./backgroundVideo.mp4";
+
 
 class HomePage extends React.Component {
 	render() {
@@ -26,9 +24,11 @@ class HomePage extends React.Component {
 
 			<div css={wrapperStyle()}>
 				{authRedirect}
-				<div css={videoComponent()}>
-					<img src= {launch}/>
-				</div>
+				<div css={videoComponent}>
+                  <video className='video' id="video" autoPlay loop muted>
+                  <source src={backgroundVideo} type='video/mp4' />
+                  </video>
+               </div> 
 				
 				<div css={UIComponentStyle()}>
 					<div css={boxStyle()}>

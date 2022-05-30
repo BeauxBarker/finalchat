@@ -25,9 +25,10 @@ export const videoComponent = () => {
 
     return {
      display: "flex",
-     width: "50%",
+     width: "100%",
      align: "center",
-     marginTop: "100px"
+     marginTop: "100px",
+     marginLeft: "100px",
     }
 }
 
